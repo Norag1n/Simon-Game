@@ -107,7 +107,7 @@ function Jogo(jogadas){
             vermelho.removeEventListener('click',clickVermelho);
             amarelo.removeEventListener('click',clickAmarelo);
             azul.removeEventListener('click',clickAzul);
-            titulo.innerText = "Você Errou!! Aperte na Tela para Recomeçar";
+            titulo.innerText = "Você Errou!! Aperte no Botão para Recomeçar";
             tlecado = false;
         }
     }
@@ -139,7 +139,7 @@ function Jogo(jogadas){
             vermelho.removeEventListener('click',clickVermelho);
             amarelo.removeEventListener('click',clickAmarelo);
             azul.removeEventListener('click',clickAzul);
-            titulo.innerText = "Você Errou!! Aperte na Tela para Recomeçar";
+            titulo.innerText = "Você Errou!! Aperte no Botão para Recomeçar";
             tlecado = false;
         }
     }
@@ -171,7 +171,7 @@ function Jogo(jogadas){
             vermelho.removeEventListener('click',clickVermelho);
             amarelo.removeEventListener('click',clickAmarelo);
             azul.removeEventListener('click',clickAzul);
-            titulo.innerText = "Você Errou!! Aperte na Tela para Recomeçar";
+            titulo.innerText = "Você Errou!! Aperte no Botão para Recomeçar";
             tlecado = false;
         }
     }  
@@ -203,7 +203,7 @@ function Jogo(jogadas){
             vermelho.removeEventListener('click',clickVermelho);
             amarelo.removeEventListener('click',clickAmarelo);
             azul.removeEventListener('click',clickAzul);
-            titulo.innerText = "Você Errou!! Aperte na Tela para Recomeçar";
+            titulo.innerText = "Você Errou!! Aperte no Botão para Recomeçar";
             tlecado = false;
         }
     }     
