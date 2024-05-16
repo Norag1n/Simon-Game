@@ -50,6 +50,16 @@ div{
     font-size: 1.5em;
     color: #FEF2BF;
 }
+#começar{
+    width:5em;
+    height:3em;
+    padding: 10px 22px;
+    border-radius: 6px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    background-color:#FEF2BF;
+}
 #melhorResultado{
     padding: 15px;
     font-family: 'Press Start 2P', cursive;
