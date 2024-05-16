@@ -1,11 +1,11 @@
 var round = 1;
 var tlecado = false;
-var iniciar = document.getElementById("começar");
-iniciar.addEventListener('click', function(e) {
-    if(tlecado == false){
-        iniciar.style.opacity = "0";
+
+document.addEventListener('keydown', function(e) {
+    var key = e.keyCode;
+    if(tlecado == false && key == 32){
         tlecado = true;
-        var aleatorio = [Math.floor(Math.random()*(4 - 1 + 1) + 1)];
+        var aleatorio = [1];//[Math.floor(Math.random()*(4 - 1 + 1) + 1)];
         Computador(aleatorio);
     }
 });
@@ -55,7 +55,7 @@ function Computador(jogada){
                 }
         }
 
-        
+
     }
 
 }
@@ -108,8 +108,7 @@ function Jogo(jogadas){
             vermelho.removeEventListener('click',clickVermelho);
             amarelo.removeEventListener('click',clickAmarelo);
             azul.removeEventListener('click',clickAzul);
-            titulo.innerText = "Você Errou!! Aperte no Botão para Recomeçar";
-            iniciar.style.opacity = "1";
+            titulo.innerText = "Você Errou!! Aperte Espaço para Recomeçar";
             tlecado = false;
         }
     }
@@ -141,8 +140,7 @@ function Jogo(jogadas){
             vermelho.removeEventListener('click',clickVermelho);
             amarelo.removeEventListener('click',clickAmarelo);
             azul.removeEventListener('click',clickAzul);
-            titulo.innerText = "Você Errou!! Aperte no Botão para Recomeçar";
-            iniciar.style.opacity = "1";
+            titulo.innerText = "Você Errou!! Aperte Espaço para Recomeçar";
             tlecado = false;
         }
     }
@@ -174,8 +172,7 @@ function Jogo(jogadas){
             vermelho.removeEventListener('click',clickVermelho);
             amarelo.removeEventListener('click',clickAmarelo);
             azul.removeEventListener('click',clickAzul);
-            titulo.innerText = "Você Errou!! Aperte no Botão para Recomeçar";
-            iniciar.style.opacity = "1";
+            titulo.innerText = "Você Errou!! Aperte Espaço para Recomeçar";
             tlecado = false;
         }
     }  
@@ -207,8 +204,7 @@ function Jogo(jogadas){
             vermelho.removeEventListener('click',clickVermelho);
             amarelo.removeEventListener('click',clickAmarelo);
             azul.removeEventListener('click',clickAzul);
-            titulo.innerText = "Você Errou!! Aperte no Botão para Recomeçar";
-            iniciar.style.opacity = "1";
+            titulo.innerText = "Você Errou!! Aperte Espaço para Recomeçar";
             tlecado = false;
         }
     }     
@@ -258,4 +254,3 @@ function ABB(){
         azul.style.opacity = "1";
     }, "500");
 }
-
