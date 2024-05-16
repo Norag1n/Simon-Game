@@ -1,0 +1,64 @@
+
+body{
+    width: 500px;
+    height: 200px;
+    background-color: #280754;
+}
+input{
+    position: relative;
+    margin: 5em;
+    width: 12em; 
+    height: 12em;
+    border: 6px black solid;
+    border-radius: 25%;
+}
+#vermelho{
+    top: 3em;    
+    left: 3em;
+    background-color: red;
+
+}
+#verde{
+    top: 3em;
+    left: 12em;
+    background-color: green;
+}
+#azul{
+    left: 3em;
+    top: -6em;
+    background-color: blue;
+}
+#amarelo{
+    left: 12em;
+    top: -6em;
+    background-color: yellow;
+}
+div{
+    border: #FEF2BF solid 10px ;
+    width: 50em;
+    height: 35em;
+    position: relative;
+    left: 20em;
+    top: 2em;
+}
+#round{
+    width: 27em;
+    font-family: 'Press Start 2P', cursive;
+    left: 17em;
+    top: 1.5em;
+    position: relative;
+    font-size: 1.5em;
+    color: #FEF2BF;
+}
+#melhorResultado{
+    padding: 15px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #FEF2BF;
+    border: black solid 10px ;    
+    top: 6em;
+    left: 60em;
+    position: absolute;
+    width: 10em;
+    height:10em;
+}
