@@ -4,7 +4,7 @@ var tlecado = false;
 document.addEventListener('click', function(e) {
     if(tlecado == false){
         tlecado = true;
-        var aleatorio = [1];//[Math.floor(Math.random()*(4 - 1 + 1) + 1)];
+        var aleatorio = [Math.floor(Math.random()*(4 - 1 + 1) + 1)];
         Computador(aleatorio);
     }
 });
