@@ -1,8 +1,9 @@
 var round = 1;
 var tlecado = false;
-var iniciar = document.getElementById("iniciar");
-document.addEventListener('click', function(e) {
+var iniciar = document.getElementById("começar");
+iniciar.addEventListener('click', function(e) {
     if(tlecado == false){
+        iniciar.style.opacity = "0";
         tlecado = true;
         var aleatorio = [Math.floor(Math.random()*(4 - 1 + 1) + 1)];
         Computador(aleatorio);
@@ -108,6 +109,7 @@ function Jogo(jogadas){
             amarelo.removeEventListener('click',clickAmarelo);
             azul.removeEventListener('click',clickAzul);
             titulo.innerText = "Você Errou!! Aperte no Botão para Recomeçar";
+            iniciar.style.opacity = "1";
             tlecado = false;
         }
     }
@@ -140,6 +142,7 @@ function Jogo(jogadas){
             amarelo.removeEventListener('click',clickAmarelo);
             azul.removeEventListener('click',clickAzul);
             titulo.innerText = "Você Errou!! Aperte no Botão para Recomeçar";
+            iniciar.style.opacity = "1";
             tlecado = false;
         }
     }
@@ -172,6 +175,7 @@ function Jogo(jogadas){
             amarelo.removeEventListener('click',clickAmarelo);
             azul.removeEventListener('click',clickAzul);
             titulo.innerText = "Você Errou!! Aperte no Botão para Recomeçar";
+            iniciar.style.opacity = "1";
             tlecado = false;
         }
     }  
@@ -204,6 +208,7 @@ function Jogo(jogadas){
             amarelo.removeEventListener('click',clickAmarelo);
             azul.removeEventListener('click',clickAzul);
             titulo.innerText = "Você Errou!! Aperte no Botão para Recomeçar";
+            iniciar.style.opacity = "1";
             tlecado = false;
         }
     }     
