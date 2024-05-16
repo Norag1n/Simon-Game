@@ -1,9 +1,8 @@
 var round = 1;
 var tlecado = false;
 
-document.addEventListener('keydown', function(e) {
-    var key = e.keyCode;
-    if(tlecado == false && key == 32){
+document.addEventListener('click', function(e) {
+    if(tlecado == false){
         tlecado = true;
         var aleatorio = [1];//[Math.floor(Math.random()*(4 - 1 + 1) + 1)];
         Computador(aleatorio);
@@ -108,7 +107,7 @@ function Jogo(jogadas){
             vermelho.removeEventListener('click',clickVermelho);
             amarelo.removeEventListener('click',clickAmarelo);
             azul.removeEventListener('click',clickAzul);
-            titulo.innerText = "Você Errou!! Aperte Espaço para Recomeçar";
+            titulo.innerText = "Você Errou!! Aperte na Tela para Recomeçar";
             tlecado = false;
         }
     }
@@ -140,7 +139,7 @@ function Jogo(jogadas){
             vermelho.removeEventListener('click',clickVermelho);
             amarelo.removeEventListener('click',clickAmarelo);
             azul.removeEventListener('click',clickAzul);
-            titulo.innerText = "Você Errou!! Aperte Espaço para Recomeçar";
+            titulo.innerText = "Você Errou!! Aperte na Tela para Recomeçar";
             tlecado = false;
         }
     }
@@ -172,7 +171,7 @@ function Jogo(jogadas){
             vermelho.removeEventListener('click',clickVermelho);
             amarelo.removeEventListener('click',clickAmarelo);
             azul.removeEventListener('click',clickAzul);
-            titulo.innerText = "Você Errou!! Aperte Espaço para Recomeçar";
+            titulo.innerText = "Você Errou!! Aperte na Tela para Recomeçar";
             tlecado = false;
         }
     }  
@@ -204,7 +203,7 @@ function Jogo(jogadas){
             vermelho.removeEventListener('click',clickVermelho);
             amarelo.removeEventListener('click',clickAmarelo);
             azul.removeEventListener('click',clickAzul);
-            titulo.innerText = "Você Errou!! Aperte Espaço para Recomeçar";
+            titulo.innerText = "Você Errou!! Aperte na Tela para Recomeçar";
             tlecado = false;
         }
     }     
