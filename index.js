@@ -1,6 +1,6 @@
 var round = 1;
 var tlecado = false;
-
+var iniciar = document.getElementById("iniciar");
 document.addEventListener('click', function(e) {
     if(tlecado == false){
         tlecado = true;
