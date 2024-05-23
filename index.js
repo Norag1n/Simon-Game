@@ -5,7 +5,7 @@ document.addEventListener('keydown', function(e) {
     var key = e.keyCode;
     if(tlecado == false && key == 32){
         tlecado = true;
-        var aleatorio = [1];//[Math.floor(Math.random()*(4 - 1 + 1) + 1)];
+        var aleatorio = [Math.floor(Math.random()*(4 - 1 + 1) + 1)];
         Computador(aleatorio);
     }
 });
